@@ -20,7 +20,7 @@ ul {
 
 /* logo */
 .logo-dark {
-    color: #2e2f42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -29,7 +29,7 @@ ul {
 }
 
 .logo-accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 /* batton */
@@ -132,9 +132,7 @@ h2 {
     background-color: #2e2f42;
 }
 
-.footer p {
-    color: #f4f4fd;
-}
+
 
 .footer a {
     font-family: "Raleway", sans-serif;
@@ -145,6 +143,14 @@ h2 {
     text-align: left;
 }
 
+.logo-accent {
+    color: #4d5ae5;
+}
 .logo-light {
+  color: #f4f4fd;
+  text-transform: uppercase
+}
+.footer-text {
     color: #f4f4fd;
+    letter-spacing: 0.02em;
 }

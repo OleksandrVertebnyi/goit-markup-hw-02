@@ -34,6 +34,7 @@ ul {
 
 /* batton */
 button {
+    font-size: 16px;
     font-family: inherit;
     font-weight: 500;
     color: #fff;
@@ -47,7 +48,7 @@ button:hover {
     background: #404bbf;
 }
 
-.batton:focus {
+.button-section:focus {
     background-color: #404BBF
     border: 2px;
 }
@@ -103,7 +104,7 @@ button:hover {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 2%;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
     text-align: center;
     
 }
@@ -132,10 +133,18 @@ button:hover {
     text-transform: capitalize;
 }
 .item-desk {
-    color: #434455;
-    line-height: 1.5;
+    font-weight: 500;
+    color: #2e2f42;
+    line-height: 1.2;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+.excerpt-text {
     font-size: 16px;
     letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.5;
+
 }
 
 .our-team {
@@ -144,6 +153,25 @@ button:hover {
 
 .card-team {
     background-color: #fff;
+}
+/* Our Portfolio */
+.portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.lead-text {
+    letter-spacing: 0.02em;
 }
 
 /* footer */

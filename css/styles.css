@@ -64,12 +64,13 @@ ul {
     color: #404bbf;
     
 }
+.navigation :focus {
+    color: #404bbf;
+}
     
 
 /* address */
-.wrapper {
-    color: #434455;
-}
+
 .address-link {
     font-style: normal;
     color: #434455;

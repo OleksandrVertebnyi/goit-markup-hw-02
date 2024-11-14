@@ -38,6 +38,8 @@ button {
     font-weight: 500;
     color: #fff;
     background-color: #4d5ae5;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -46,6 +48,7 @@ button:hover {
 }
 
 .batton:focus {
+    background-color: #404BBF
     border: 2px;
 }
 
@@ -94,29 +97,45 @@ button:hover {
     background-color: #2e2f42;
 }
 
-.hero-title {
+.main-title {
     color: #fff;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 2%;
+    letter-spacing: 0.02em
     text-align: center;
+    
 }
-
-h3 {
+ 
+/* Our advantages section */
+.advantages {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 
-p {
-    letter-spacing: 2%;
+.quote-text {
+    
+    letter-spacing: 0.02em
 }
 
-h2 {
+/* Our team section */
+.caption {
+    color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+.item-desk {
+    color: #434455;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 .our-team {

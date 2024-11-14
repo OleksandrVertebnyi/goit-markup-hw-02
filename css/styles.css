@@ -60,11 +60,11 @@ ul {
     
 }
 
-.navigation:hover {
+.navigation :hover {
     color: #404bbf;
     
 }
-.navigation:focus {
+.navigation :focus {
     color: #404bbf;
 }
     
@@ -79,16 +79,16 @@ ul {
     letter-spacing: 2%;
 }
 
-.address-link:hover {
+.address-link :hover {
     color: #404bbf;
 }
 
-.address-link:focus {
+.address-link :focus {
     color: #404bbf;
     border: 1px solid #2e2f42;
 }
 
-.address-link:active {
+.address-link :active {
     color: #404bbf;
 }
 

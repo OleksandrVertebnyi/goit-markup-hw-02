@@ -26,9 +26,10 @@ ul {
     font-weight: 700;
     line-height: 1.17;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
-.logo-accent {
+.logo-accen {
     color: #2e2f42;
 }
 
@@ -49,25 +50,32 @@ button:hover {
 }
 
 .button-section:focus {
-    background-color: #404BBF
+    background-color: #404BBF;
     border: 2px;
 }
 
 .navi-menu {
     font-weight: 500;
+    letter-spacing: 0.02em;
+    
 }
 
-.navi-menu:hover {
+.navi-menu :hover {
     color: #404bbf;
-    letter-spacing: 2%;
+    
 }
+    
 
 /* address */
-.contacts-link:link {
+.address-link {
+    font-style: normal
+}
+.contacts-link {
     color: #434455;
+    letter-spacing: 0.02em
 }
 
-.contacts-link:hover {
+.contacts-link :hover {
     color: #404bbf;
 }
 
@@ -75,7 +83,8 @@ button:hover {
     color: #2e2f42;
 }
 
-.contacts-link:focus {
+.contacts-link :focus {
+    color: #404bbf;
     border: 1px solid #2e2f42;
 }
 
@@ -131,6 +140,7 @@ button:hover {
     letter-spacing: 0.02em;
     line-height: 1.11;
     text-transform: capitalize;
+    text-align: center;
 }
 .item-desk {
     font-weight: 500;
@@ -191,10 +201,10 @@ button:hover {
 }
 
 .logo-accent {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 .logo-light {
-  color: #f4f4fd;
+  color: #4d5ae5;
   text-transform: uppercase
 }
 .footer-text {

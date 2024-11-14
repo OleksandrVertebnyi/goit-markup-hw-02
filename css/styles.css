@@ -71,25 +71,23 @@ ul {
     color: #434455;
 }
 .address-link {
-    font-style: normal
-}
-.contacts-link {
+    font-style: normal;
     color: #434455;
     letter-spacing: 0.02em;
     font-style: normal;
     letter-spacing: 2%;
 }
 
-.contacts-link :hover {
+.address-link :hover {
     color: #404bbf;
 }
 
-.contacts-link :focus {
+.address-link :focus {
     color: #404bbf;
     border: 1px solid #2e2f42;
 }
 
-.contacts-link :active {
+.address-link :active {
     color: #404bbf;
 }
 
@@ -203,9 +201,11 @@ ul {
 }
 .logo-light {
   color: #4d5ae5;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 .footer-text {
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
+
+

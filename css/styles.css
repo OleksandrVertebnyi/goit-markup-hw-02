@@ -34,7 +34,7 @@ ul {
 }
 
 /* batton */
-button {
+.button-section {
     font-size: 16px;
     font-family: inherit;
     font-weight: 500;

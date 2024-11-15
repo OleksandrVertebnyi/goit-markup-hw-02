@@ -70,6 +70,9 @@ ul {
     
 
 /* address */
+.address-search {
+    color: #434455;
+}
 
 .address-link {
     font-style: normal;
